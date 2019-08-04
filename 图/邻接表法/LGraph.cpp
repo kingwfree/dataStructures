@@ -90,9 +90,6 @@ void InsertLGraph(PLGraph pL,ENode E){
 	pL->vertices[E.V1].first = pA;
 
 	//ÎÞÏòÍ¼ 
-	/*
-	
-	*/
 	pA = (PArc)malloc(sizeof(ANode));
 	pA->adjvex = E.V1;
 	pA->weight = E.Weight;

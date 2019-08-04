@@ -93,9 +93,9 @@ void InitMGraph(PMGraph pM,int vexnum,int edgenum){
 	int i,j;
 	pM->vexnum = vexnum;
 	pM->edgenum = edgenum;
-	for (i=0;i<MaxVertexNum;i++)
+	for (i=0;i<vexnum;i++)
 	{
-		for (j=0;j<MaxVertexNum;j++)
+		for (j=0;j<vexnum;j++)
 		{
 			pM->Edge[i][j] = INFINITY;
 		}
